@@ -1,0 +1,19 @@
+.bottom-margin { 
+    margin-bottom: 15px; 
+}
+
+.left-margin { 
+    margin-left: 1px; 
+}
+
+.left-double-margin { 
+    margin-left: 2px; 
+}
+
+.right-margin { 
+    margin-right: 1px; 
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
