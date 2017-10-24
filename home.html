@@ -25,72 +25,76 @@
 
       <!-- Sidebar -->
       <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-          <li class="sidebar-brand">
-            <a href="#">
-              <h1><b>CODE</b>break</h1>
-            </a>
-          </li>
+          <h1 id="logo">
+            <a title="Startseite">
+              <img src="" alt="Codebreaks" title="Codebreaks">
+              <span class="text-hide">Codebreaks</span></a>
+          </h1>
 
-          <li>
-            <a href="#"> 
-              <h3><b> Monday</b></h3>
-            </a>  
-          </li>
-          <li>
-            <a href="#"> 
-              <b> > Pre-Order</b>
-            </a>
-          </li>
-          <li>
-            <a href="#"> 
-              <b> > Burger Junkys</b>
-              <ul style="list-style: none;">
-                <li>Head out</li>
-                <li>This Guy</li>
-              </ul>
-            </a>  
-          </li>
-          <li>
-            <a href="#"> 
-              <b> > Pizzeria Latino</b>
-              <ul style="list-style: none;">
-                <li>Head out</li>
-                <li>This Guy</li>
-              </ul>
-            </a>
-          </li>
-          <li>
-            <a href="#"]> 
-              <b> > Taj Majal</b>
-              <ul style="list-style: none;">
-                <li>Head out</li>
-                <li>This Guy</li>
-              </ul>
-            </a>
-          </li>
-          <li>
-            <a href="#"> 
-              <h3><b>Tuesday</b></h3>
-            </a>  
-          </li>
-          <li>
-            <a href="#"> 
-              <b> > Pre-Order</b>
-            </a>
-          </li>
+          <div id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="card">
+              <div class="card-header" role="tab" id="headingOne">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Monday
+                  </a>
+                </h5>
+              </div>
 
-          <li>
-            <a href="#"> 
-              <b> > Some Other Place</b>
-              <ul style="list-style: none;">
-                <li>Head out</li>
-                <li>This Guy</li>
-              </ul>
-            </a>
-          </li>
-          <li>
-        </ul>
+              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                <div class="card-block">
+                  <ul class="sidebar-nav">
+                    <li>
+                      <a href="#">Pre Order</a>
+                    </li>
+
+                    <ul>
+                      <li><a href="#">Burger Junkys</a></li>
+                      <li><a href="#">Pizza Latino</a></li>
+                      <li><a href="#">Tai Majal</a></li>
+                    </ul>
+                    <li>
+                      <a href="#">Head Out</a>
+                    </li>
+                    <li>
+                      <a href="#">Take Away</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" role="tab" id="headingTwo">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Thuesday
+                  </a>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="card-block">
+                  <ul class="sidebar-nav">
+                    <li>
+                      <a href="#">Pre Order</a>
+                    </li>
+
+                    <ul>
+                      <li><a href="#">Burger Junkys</a></li>
+                      <li><a href="#">Pizza Latino</a></li>
+                      <li><a href="#">Tai Majal</a></li>
+                    </ul>
+                    <li>
+                      <a href="#">Head Out</a>
+                    </li>
+                    <li>
+                      <a href="#">Take Away</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
       <!-- /#sidebar-wrapper -->
 
