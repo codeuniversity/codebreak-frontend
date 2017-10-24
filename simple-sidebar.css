@@ -28,7 +28,7 @@ body {
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #fff;
+    background: #eee;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -55,27 +55,58 @@ body {
 
 .sidebar-nav {
     top: 0;
-    width: 250px;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
+    text-indent: 15px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.sidebar-nav > li {
+    padding-bottom: 0;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #000;
+    font-size: 20px;
+}
+
+.sidebar-nav ul {
+    padding-left: 5px;
+}
+
+.sidebar-nav ul li {
+    font-weight: lighter;
+    padding-top: 0;
+    line-height: 25px;
+}
+
+.sidebar-nav > li > a {
+    position: relative;
+}
+
+.sidebar-nav > li > a:after {
+    background: url("assets/img/Add.png") no-repeat right 5px;
+    width: 30px;
+    height: 30px;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+
+
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.2);
+    background: #ddd;
 }
 
 .sidebar-nav li a:active,
@@ -119,4 +150,39 @@ body {
         position: relative;
         margin-right: 0;
     }
+}
+
+/* Accordion */
+.card {
+    border: none;
+    background: transparent;
+}
+
+.card-header {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+}
+
+.card-header a {
+     padding: 15px 15px 10px;
+     display: block;
+     color: #000;
+}
+
+.card-header a:hover {
+    background: #ddd;
+}
+
+
+.card-header a:hover {
+    text-decoration: none;
+}
+
+.card-block {
+    padding-bottom: 20px;
+}
+
+.collapse {
+    background: #e6e6e6;
 }
