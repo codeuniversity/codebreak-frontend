@@ -58,7 +58,6 @@ h3 {
 }
 
 p {
-  width: 50%;
   font-family: sans-serif;
   font-size: 80%;
 }
@@ -70,4 +69,9 @@ p {
   background-color: rgba(192,200,200,0.85);
   border-radius: 15px;
   padding-bottom: 5%;
+}
+
+.inner-greybox {
+  background-color: rgba(147,160,160,1);
+  border-radius: 15px;
 }
