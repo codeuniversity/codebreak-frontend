@@ -27,7 +27,7 @@ body {
     width: 0;
     height: 100%;
     margin-left: -250px;
-    overflow-y: auto;
+    overflow-y: scroll; <--Habe ich verändert, damit der footer nicht blöd aussieht-->
     background: #eee;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -152,6 +152,7 @@ body {
     }
 }
 
+<<<<<<< Updated upstream
 /* Accordion */
 .card {
     border: none;
@@ -185,4 +186,39 @@ body {
 
 .collapse {
     background: #e6e6e6;
+=======
+
+ 
+>>>>>>> Stashed changes
+}
+
+.footer {
+	position: fixed;
+	background-color: #999999;
+	bottom: 0px;
+	color: #000;
+	width: 232px;
+	border-top: 1px solid black;
+    border-bottom: 1px solid black;
+	
+}
+
+.footer ul{
+	padding: 5px;
+	margin-top: -6px;
+	margin-bottom: -4px;
+	margin-left: 10px;
+}
+
+.footer li{
+	list-style: none;
+	font-size: 10px;
+	display:inline;
+	margin: 10px;
+}
+
+.footer a{
+	color: black;
+	
+
 }
