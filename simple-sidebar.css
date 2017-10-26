@@ -152,7 +152,6 @@ body {
     }
 }
 
-<<<<<<< Updated upstream
 /* Accordion */
 .card {
     border: none;
@@ -186,10 +185,6 @@ body {
 
 .collapse {
     background: #e6e6e6;
-=======
-
- 
->>>>>>> Stashed changes
 }
 
 .footer {
@@ -219,6 +214,4 @@ body {
 
 .footer a{
 	color: black;
-	
-
 }
