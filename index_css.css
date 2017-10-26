@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding:0px;
+    border:none; 
+    font-family:'Source Sans Pro';
+  
+}
+
+body{
+    background-image: url("assets/img/summer-barbeque-feast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    padding-top:8%;
+}
+
+#login {
+    position:absolute;
+    top:20px;
+    right:10px;
+    font-weight: bold;
+    font-size:1em;
+    border:1.5px solid #e8b722;
+    border-radius:1px;
+    color:#e8b722; 
+    background-color:transparent;
+    width:130px;
+    padding-top:5px;
+    padding-bottom:5px;
+    cursor: pointer;
+    text-transform:uppercase;
+    
+}
+
+#login:hover{
+    border:1.5px solid rgba(232,183,34,1);
+    color:rgba(0,0,0,1);
+    background-color:rgba(232,183,34,1);
+}
+
+#login:focus{
+    outline:none;
+}
+
+
+.container{
+    background-color:rgba(192,188,188,0.6);
+    height: 50%;
+    overflow:auto;
+    padding-top:25px;
+    padding-left:50px;
+    padding-right:20px;
+   
+}
+
+#logo{
+    display:block;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+h1{
+    width:40%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align:center;
+    font-size:1.3em;
+   
+}
+
+.container p{
+    margin-left:auto;
+    margin-right: auto;
+    width: 40%;
+    text-align:center;
+    margin-bottom:5%;
+}
+
+
+h2{
+    text-align: center;
+    margin-bottom:4%;
+}
+
+#preorder, #headout, #takeaway{
+    width:31%;
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+#preorder img, #headout img, #takeaway img{
+    width:25%;
+    float: left;
+    margin-right:8%;
+    margin-bottom:80px;
+}
+
+#preorder p, #headout p, #takeaway p{
+    width:90%;
+    text-align: left;
+    
+}
