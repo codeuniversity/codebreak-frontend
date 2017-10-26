@@ -50,6 +50,11 @@ body {
     margin-right: -250px;
 }
 
+#logo img {
+    width: 90%;
+    margin: 20px 5% 20px;
+}
+
 
 /* Sidebar Styles */
 
