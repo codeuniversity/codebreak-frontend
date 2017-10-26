@@ -27,7 +27,7 @@ body {
     width: 0;
     height: 100%;
     margin-left: -250px;
-    overflow-y: scroll; <--Habe ich verändert, damit der footer nicht blöd aussieht-->
+    overflow-y: scroll; /*Habe ich verändert, damit der footer nicht blöd aussieht*/
     background: #eee;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
