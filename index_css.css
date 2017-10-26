@@ -34,7 +34,7 @@ body{
 
 #login:hover{
     border:1.5px solid rgba(232,183,34,1);
-    color:rgba(0,0,0,1);
+    color:rgb(255, 255, 255);
     background-color:rgba(232,183,34,1);
 }
 
