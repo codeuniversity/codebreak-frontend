@@ -1,0 +1,73 @@
+/* Bordered form */
+form {
+  display: block;
+  margin: 0 auto;
+  padding-left: 35%;
+  padding-right: 27%;
+}
+
+body {
+  height: 100%;
+  background-image: url("maps.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+ 
+/* Set a style for all buttons */
+button {
+  background-color: #FFA224;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  xwidth: 60%;
+  border-radius: 20px;
+  float: left;
+}
+ 
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+.submitbtn {
+  width: 30%;
+  float: left;
+  border-radius: 5px;
+  align-self: center;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 33%;
+}
+
+.font {
+  font-family: sans-serif;
+  opacity: 0.7;
+}
+
+h2 {
+  font-size: 150%;
+  font-family: sans-serif;
+  opacity: 0.7;
+}
+
+h3 {
+  font-size: 200%;
+  font-family: sans-serif;
+}
+
+p {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 80%;
+}
+
+.greybox {
+  width:80%;
+  margin-top: 20%;
+  margin-left: 1px;
+  background-color: rgba(192,200,200,0.85);
+  border-radius: 15px;
+  padding-bottom: 5%;
+}
