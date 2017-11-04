@@ -1,0 +1,84 @@
+
+body {
+  background-image: url("summer-barbeque-feast.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 12px 20px;
+    display: block;
+    border: 0,5px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom:3%;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #FFA224;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    xwidth: 100%;
+    border-radius: 20px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+.loginbtn {
+  width: 50%;
+  float: none;
+  border-radius: 5px;
+  margin-left: 25%;
+}
+
+
+/* Avatar image */
+.logo {
+    display:block;
+    width: 70%;
+    padding-top: 5%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:5%;
+    
+}
+
+.greybox {
+  width:40%;
+  margin-top: 10%;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: rgba(192,188,188,0.7);
+  border-radius: 15px;
+  overflow: auto;
+  padding-bottom: 3%;
+
+}
+
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+    .forgotpsd {
+      width: 100%;
+    }
+}

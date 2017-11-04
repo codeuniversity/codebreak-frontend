@@ -166,7 +166,7 @@ body {
 .card-header {
     padding: 0;
     background-color: transparent;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid rgb(230, 230, 230);
 }
 
 .card-header a {
@@ -193,29 +193,35 @@ body {
 }
 
 .footer {
-	position: fixed;
-	background-color: #999999;
-	bottom: 0px;
-	color: #000;
-	width: 232px;
-	border-top: 1px solid black;
-    border-bottom: 1px solid black;
-	
+    width: 250px;
+    position: fixed;
+    background-color: #eee;
+    bottom: 0px;
+    color: #000;
+    border-top: 2px solid rgb(230, 230, 230);
+
+
 }
 
 .footer ul{
-	padding: 5px;
-	margin-top: -6px;
-	margin-bottom: -4px;
-	margin-left: 10px;
+    padding: 5px;
+    margin-top: -6px;
+    margin-bottom: -4px;
+    margin-left: 10px;
 }
 
 .footer li{
-	list-style: none;
-	font-size: 10px;
-	display:inline;
-	margin: 10px;
+    list-style: none;
+    font-size: 10px;
+    display:inline;
+    margin: 10px;
+    float:left;
 }
+
+.footer li:last-child{
+    float:right;
+}
+
 
 .footer a{
 	color: black;
